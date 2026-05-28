@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Did You Say?</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="data.js"></script>
+
+    <script>
+        // 🎯 2. 角色的範本
+        class FloatingCharacter {
+            constructor(characterData, index) {
+                this.index = index;
+                this.isTalking = false;
+                this.currentLine = 0;
+                this.maxSpeed = 0.5;
+                this.myStory = characterData.story;
+                this.radius = 5; // 💡 修正關鍵：改為 15px (直徑 30px)，與你的 style.css (.gameCharacter { width: 30px }) 完美對齊！
+
+                // 出生點
+                this.posX = 50 + (index % 5) * 180 + (Math.random() - 0.5) * 30;
+                this.posY = 200 + Math.floor(index / 5) * 180 + (Math.random() - 0.5) * 30;
+
+                this.speedX = (Math.random() - 0.5) * this.maxSpeed * 2;
+                this.speedY = (Math.random() - 0.5) * this.maxSpeed * 2;
+
+                // 動態建立元件
+                this.dom = document.createElement('div');
+                this.dom.className = 'gameCharacter';
+
+                this.bubble = document.createElement('div');
+                this.bubble.className = 'speechBubble';
+
+                this.dialogueText = document.createElement('div');
+                this.dialogueText.className = 'dialogueText';
+
+                this.img = document.createElement('img');
+                this.img.className = 'movingImage';
+                this.img.src = characterData.img;
+                this.img.style.cursor = 'pointer';
+
+                // 組裝
+                this.bubble.appendChild(this.dialogueText);
+                this.dom.appendChild(this.bubble);
+                this.dom.appendChild(this.img);
+                document.body.appendChild(this.dom);
+
+                // 事件監聽
+                this.dom.addEventListener('mouseenter', () => this.triggerDialogue());
+                this.dom.addEventListener('mouseleave', () => this.resumeMoving());
+                this.img.addEventListener('click', (e) => this.handleImageClick(e));
+            }
+
+            getCenter() {
+                return {
+                    x: this.posX + this.radius,
+                    y: this.posY + this.radius
+                };
+            }
+
+            updatePositionOnly() {
+                if (this.isTalking) return;
+
+                if (Math.random() < 0.01) {
+                    this.speedX += (Math.random() - 0.5) * 0.3;
+                    this.speedY += (Math.random() - 0.5) * 0.3;
+                }
+
+                this.speedX = Math.max(-this.maxSpeed, Math.min(this.maxSpeed, this.speedX));
+                this.speedY = Math.max(-this.maxSpeed, Math.min(this.maxSpeed, this.speedY));
+
+                this.posX += this.speedX;
+                this.posY += this.speedY;
+
+                const windowWidth = window.innerWidth;
+                const windowHeight = window.innerHeight;
+                const charSize = this.radius * 2;
+
+                if (this.posX <= 0) { this.posX = 0; this.speedX = -this.speedX; }
+                else if (this.posX >= windowWidth - charSize) { this.posX = windowWidth - charSize; this.speedX = -this.speedX; }
+
+                if (this.posY <= 180) { this.posY = 180; this.speedY = -this.speedY; }
+                else if (this.posY >= windowHeight - charSize) { this.posY = windowHeight - charSize; this.speedY = -this.speedY; }
+
+                this.dom.style.left = this.posX + 'px';
+                this.dom.style.top = this.posY + 'px';
+            }
+
+            triggerDialogue() {
+                this.isTalking = true;
+                this.dialogueText.innerHTML = this.myStory[this.currentLine];
+                this.bubble.classList.add('show');
+                this.dialogueText.scrollTop = 0;
+            }
+
+            resumeMoving() {
+                this.bubble.classList.remove('show');
+                this.isTalking = false;
+                this.speedX = (Math.random() > 0.5 ? 1 : -1) * this.maxSpeed;
+                this.speedY = (Math.random() > 0.5 ? 1 : -1) * this.maxSpeed;
+            }
+
+            handleImageClick(e) {
+                e.stopPropagation();
+                if (!this.isTalking) return;
+
+                this.currentLine++;
+
+                if (this.currentLine < this.myStory.length) {
+                    this.dialogueText.innerHTML = this.myStory[this.currentLine];
+                    this.dialogueText.scrollTop = 0;
+                } else {
+                    this.currentLine = 0;
+                    this.resumeMoving();
+                }
+            }
+        }
+
+        // 🚀 3. 建立並啟動角色物件陣列
+        const charactersArray = [];
+        characterDataList.forEach((data, index) => {
+            charactersArray.push(new FloatingCharacter(data, index));
+        });
+
+        // 🎯 4. 全域雙迴圈碰撞檢測機制
+        function checkCollisions() {
+            for (let i = 0; i < charactersArray.length; i++) {
+                for (let j = i + 1; j < charactersArray.length; j++) {
+                    const charA = charactersArray[i];
+                    const charB = charactersArray[j];
+
+                    const centerA = charA.getCenter();
+                    const centerB = charB.getCenter();
+
+                    const dx = centerB.x - centerA.x;
+                    const dy = centerB.y - centerA.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    const minDistance = charA.radius + charB.radius;
+
+                    if (distance < minDistance) {
+                        if (distance === 0) continue;
+
+                        const overlap = minDistance - distance;
+                        const separateX = (dx / distance) * (overlap / 2);
+                        const separateY = (dy / distance) * (overlap / 2);
+
+                        charA.posX -= separateX;
+                        charA.posY -= separateY;
+                        charB.posX += separateX;
+                        charB.posY += separateY;
+
+                        const tempSpeedX = charA.speedX;
+                        const tempSpeedY = charA.speedY;
+
+                        charA.speedX = charB.speedX;
+                        charA.speedY = charB.speedY;
+                        charB.speedX = tempSpeedX;
+                        charB.speedY = tempSpeedY;
+                    }
+                }
+            }
+        }
+
+        // 🔄 5. 遊戲主要更新迴圈 (Game Loop)
+        function updateGame() {
+            charactersArray.forEach(char => char.updatePositionOnly());
+            checkCollisions();
+            requestAnimationFrame(updateGame);
+        }
+
+        // 啟動專案
+        requestAnimationFrame(updateGame);
+
+    </script>
+</body>
+
+</html>

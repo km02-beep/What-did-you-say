@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #dadada;
+    overflow: hidden;
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    cursor: grab;
+}
+
+/* 角色容器 */
+.gameCharacter {
+    position: absolute;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    will-change: left, top;
+}
+
+/* 圖片樣式 */
+.movingImage {
+    width: 100%;
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* 游標移入時角色微放大 */
+.gameCharacter:hover .movingImage {
+    transform: scale(1.1);
+}
+
+/* 🎯 回歸原本的氣泡對話框（加上長文大圖的防破圖優化） */
+.speechBubble {
+    position: absolute;
+    bottom: 120%;
+    background-color: white;
+    color: #333;
+    padding: 12px 14px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+
+    /* ⚡ 關鍵優化：限制氣泡的最大寬高，防止長文撐爆螢幕 */
+    width: max-content;
+    min-width: 140px;
+    max-width: 350px;
+    /* 寬度不超過 260px */
+    max-height: 200px;
+    /* 高度不超過 200px */
+
+    /* 預設隱藏 */
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+/* 🎯 對話文字區域優化 */
+.dialogueText {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    line-height: 1.5;
+    font-size: 13px;
+    /*font-weight: bold;*/
+
+    /* ⚡ 關鍵優化：當文字太長或圖片太大時，氣泡內部會出現滾動條 */
+    overflow-y: auto;
+    padding-right: 4px;
+    /* 留點空間給滾動條 */
+}
+
+/* 🎯 專門縮小 Click to continue 提示字 */
+.clickTip {
+    font-size: 9px;
+    /* 💡 設定較小的字型（原本預設是 13px） */
+    opacity: 0.6;
+    /* 讓顏色變淡一點，看起來更像副標題 */
+    display: inline-block;
+    /* 確保樣式能完美套用 */
+    margin-top: 4px;
+    /* 增加一點點與日期的間距 */
+}
+
+
+/* 🎯 專門控制氣泡對話框內的大圖與長圖 */
+.dialogueText img {
+    max-width: 100%;
+    /* 寬度自動適應氣泡 */
+    max-height: 90px;
+    /* 限制圖片最高 90px，避免塞滿氣泡 */
+    height: auto;
+    display: block;
+    /* 獨立換行 */
+    margin: 6px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nextButton {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-family: "Source Code Pro", monospace;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.2s;
+    cursor: crosshair;
+    flex-shrink: 0;
+    /* 防止按鈕被長內容擠壓變形 */
+}
+
+.nextButton:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* 小箭頭 */
+.speechBubble::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px 8px 0;
+    border-style: solid;
+    border-color: white transparent;
+    display: block;
+    width: 0;
+}
+
+/* 顯示對話框 */
+.speechBubble.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
