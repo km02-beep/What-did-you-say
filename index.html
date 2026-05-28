@@ -25,9 +25,9 @@
                 this.index = index;
                 this.isTalking = false;
                 this.currentLine = 0;
-                this.maxSpeed = 0.5;
+                this.maxSpeed = 0.3;
                 this.myStory = characterData.story;
-                this.radius = 5; // 💡 修正關鍵：改為 15px (直徑 30px)，與你的 style.css (.gameCharacter { width: 30px }) 完美對齊！
+                this.radius = 13; // 💡 修正關鍵：改為 15px (直徑 30px)，與你的 style.css (.gameCharacter { width: 30px }) 完美對齊！
 
                 // 出生點
                 this.posX = 50 + (index % 5) * 180 + (Math.random() - 0.5) * 30;
@@ -91,7 +91,7 @@
                 if (this.posX <= 0) { this.posX = 0; this.speedX = -this.speedX; }
                 else if (this.posX >= windowWidth - charSize) { this.posX = windowWidth - charSize; this.speedX = -this.speedX; }
 
-                if (this.posY <= 180) { this.posY = 180; this.speedY = -this.speedY; }
+                if (this.posY <= 0) { this.posY = 0; this.speedY = -this.speedY; }
                 else if (this.posY >= windowHeight - charSize) { this.posY = windowHeight - charSize; this.speedY = -this.speedY; }
 
                 this.dom.style.left = this.posX + 'px';

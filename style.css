@@ -13,7 +13,7 @@ body {
 /* 角色容器 */
 .gameCharacter {
     position: absolute;
-    width: 30px;
+    width: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@ body {
 /* 🎯 回歸原本的氣泡對話框（加上長文大圖的防破圖優化） */
 .speechBubble {
     position: absolute;
-    bottom: 120%;
+    bottom: 150%;
     background-color: white;
     color: #333;
     padding: 12px 14px;
