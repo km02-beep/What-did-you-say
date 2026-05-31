@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What Did You Say?</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        href="https://googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -27,14 +27,12 @@
                 this.currentLine = 0;
                 this.maxSpeed = 0.3;
                 this.myStory = characterData.story;
-                this.radius = 13; // 💡 修正關鍵：改為 15px (直徑 30px)，與你的 style.css (.gameCharacter { width: 30px }) 完美對齊！
+                this.radius = 13;
 
-                // 出生點
-                // 💡 修改後的程式碼：讓 100+ 個角色完美分散在網頁各處
-                const padding = 40; // 留出 40px 邊距，防止圖片緊貼螢幕邊緣邊界
+                // 💡 核心修改 1：改為「全螢幕隨機分散出生」，完美容納 100+ 張圖片
+                const padding = 40;
                 this.posX = padding + Math.random() * (window.innerWidth - padding * 3);
                 this.posY = padding + Math.random() * (window.innerHeight - padding * 3);
-
 
                 this.speedX = (Math.random() - 0.5) * this.maxSpeed * 2;
                 this.speedY = (Math.random() - 0.5) * this.maxSpeed * 2;
@@ -42,6 +40,8 @@
                 // 動態建立元件
                 this.dom = document.createElement('div');
                 this.dom.className = 'gameCharacter';
+                // 💡 讓網頁元件支援透明度漸變動畫
+                this.dom.style.transition = 'opacity 0.4s ease';
 
                 this.bubble = document.createElement('div');
                 this.bubble.className = 'speechBubble';
@@ -115,18 +115,33 @@
                 this.speedY = (Math.random() > 0.5 ? 1 : -1) * this.maxSpeed;
             }
 
+            // 💡 核心修改 2：點擊圖片對話完結後，圖片會優雅淡出並徹底消失
             handleImageClick(e) {
                 e.stopPropagation();
                 if (!this.isTalking) return;
 
                 this.currentLine++;
 
+                // 如果還有下一句對話，繼續切換
                 if (this.currentLine < this.myStory.length) {
                     this.dialogueText.innerHTML = this.myStory[this.currentLine];
                     this.dialogueText.scrollTop = 0;
-                } else {
-                    this.currentLine = 0;
-                    this.resumeMoving();
+                }
+                // ⚡ 劇本播完：觸發消失邏輯
+                else {
+                    // 1. 從全域物理引擎陣列中刪除，防止產生無形的鬼魂碰撞
+                    const myIndex = charactersArray.indexOf(this);
+                    if (myIndex > -1) {
+                        charactersArray.splice(myIndex, 1);
+                    }
+
+                    // 2. 讓外觀變透明（配合 constructor 設定的 transition 效果）
+                    this.dom.style.opacity = '0';
+
+                    // 3. 等 0.4 秒淡出動畫播完後，將網頁 HTML 節點徹底刪除清除記憶體
+                    setTimeout(() => {
+                        this.dom.remove();
+                    }, 400);
                 }
             }
         }

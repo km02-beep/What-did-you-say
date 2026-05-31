@@ -272,9 +272,9 @@ const characterDataList = [
     {
         img: "images/h.png",
         story: [
-            "25-04-2026 <br> 14:00 - 14:30 • 87% <br> Als je het een boekje doet, dan is het een beetje lopen. Dan moet ik de vrienden een flinje af en afspreiden. Dus ik ben hier gewoon een tijdens de tijdens de dagelijke vrienden. Dat is rustig, ik moet hier gewoon een boekje doen. Ja, het is wel leuk als je daar aan te komen is. Ja, dat is heel leuk. Ik ga voor de tanners zijn. Ja, ik ben er niet. Oh, dat is niet leuk. Ik heb zetend zijn boekje. Ik heb zetend zijn boekje.  <br><br> <span class='clickTip'>Click for translation </span>",
-            "EN <br> If you do a book, then it involves a bit of walking. Then I have to do a flin and spread out the friends. So I'm just here during the daily friends. That's quiet, I just have to do a book here. Yes, it is nice when you arrive there. Yes, that is very nice. I'm going to be for the tanners. Yes, I'm not there. Oh, that's not nice. I have settling his book. I have settling his book. <br><br> <span class='clickTip'>Click for translation </span>",
-            "CN <br>  如果你要寫書，那就得走走。然後我得做些雜事，還要和朋友們聚聚。所以我每天就待在這裡和朋友們聚會。這裡很安靜，我只需要在這裡寫書。是的，到了那裡感覺很棒。是的，那感覺真好。我要去給制革工人做工。是的，我不在那裡。哦，那可不好。我得整理他的書。我得整理他的書。 <br><br> <span class='clickTip'>Click for translation </span>"
+            "25-04-2026 <br> 14:00 - 14:30 • 87% <br> Als je het een boekje doet, dan is het een beetje lopen. Dan moet ik de vrienden een flinje af en afspreiden. Dus ik ben hier gewoon een tijdens de tijdens de dagelijke vrienden. Dat is rustig, ik moet hier gewoon een boekje doen. Ja, het is wel leuk als je daar aan te komen is. Ja, dat is heel leuk. Ik ga voor de tanners zijn. Ja, ik ben er niet. Oh, dat is niet leuk. Ik heb zetend zijn boekje. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br> If you do a book, then it involves a bit of walking. Then I have to do a flin and spread out the friends. So I'm just here during the daily friends. That's quiet, I just have to do a book here. Yes, it is nice when you arrive there. Yes, that is very nice. I'm going to be for the tanners. Yes, I'm not there. Oh, that's not nice. I have settling his book. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>  如果你要寫書，那就得走走。然後我得做些雜事，還要和朋友們聚聚。所以我每天就待在這裡和朋友們聚會。這裡很安靜，我只需要在這裡寫書。是的，到了那裡感覺很棒。是的，那感覺真好。我要去給制革工人做工。是的，我不在那裡。哦，那可不好。我得整理他的書。 <br><br> <span class='clickTip'>Click for translation </span>"
         ]
     },
     {
@@ -1590,6 +1590,712 @@ const characterDataList = [
             "23-05-2026 <br> 17:30 - 18:00 • 51% <br>Ik denk dat ik mijn echte vuur nog wel... Want er zijn vijf uur, zin vijf uur, zin vijf uur, zin vorn... Denk ze dan per uur in, maar dat allemaal wat zij is doen. En dan is er mij dus een taart voor een zin niet. Ja, nou, ik vind het niet leuk. Afzo, dan of niet. En geen andere dienstuit. Ja, ik vind het leuk. Want gewoon zijn er veel dienst in de volk. Ja, als je zwaar was, was het niet zo. <br><br> <span class='clickTip'>Click for translation </span>",
             "EN <br>I think I still have my real fire... Because there are five hours, sentence five hours, sentence five hours, sentence front... Think them in hour by hour then, but all that which she is doing. And then so there is a cake for a sentence not for me. Yeah, well, I don't like it. End of story, then or never. And no other service outing. Yes, I like it. Because there are simply a lot of service in the people. Yes, if you were heavy, it wasn't like that. <br><br> <span class='clickTip'>Click for translation </span>",
             "CN <br>我覺得我仍然充滿熱情……因為有五個小時，五個小時，五個小時，前面還有五個小時……那就按小時來想吧，但她所做的一切都很重要。然後，還有一個蛋糕，不是給我的。是啊，我不喜歡這樣。故事到此結束，要嘛這樣，要嘛永遠。沒有其他服務活動了。是的，我喜歡這樣。因為人們身上有很多服務精神。是的，如果你很重，就不是這樣了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 18:00 - 18:30 • 72% <br>Ik vind het ook wel een beetje bedacht. Je vind het ook wel een beetje blij. Ik weet dat ik zo nog fijn moet doen. Ja, ik denk dat ik zo nog fijn moet doen. Of er wel geen kandier. Maar ik wil spijt het niet. Maar ik wil ook spijt het niet. Maar ik wil spijt het niet. Ik geef het niet. Ja, precies. Ja, precies. En op iets en twaalf uur klachten verwerken of uitkennen. We gaan gewoon daarop nog eens uit. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I also think it's a bit contrived. You also think it's a bit happy. I know I still have to act nice like this. Yes, I think I still have to act nice like this. Whether there isn't any kandier. But I don't want to regret it. But I don't want to regret it either. But I don't want to regret it. I'm not giving it up. Yes, exactly. Yes, exactly. And on something and twelve hours processing or acknowledging complaints. We're just going out on that again sometime. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我也覺得有點做作。你也覺得有點裝腔作勢。我知道我還是得裝作和善。是的，我覺得我還是得裝作和善。不管有沒有糖果。但我不想後悔。我也不想後悔。但我不想後悔。我不會放棄。是的，沒錯。是的，沒錯。而且花了十二個小時處理或確認投訴。我們以後還會再討論這件事。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 18:30 - 19:00 • 90%  <br>5 minuten, maar ook in 1 of 2 minuten, maar wat nieuws doen. En ik wil best in de wuren gelen, als ik best ga hier in het klant, maar dan op z'n meteen nog 10. En je hebt die luister dat ik maar in het echte heb. Je hebt er een zon in deur betaan. Als ik gewoon dat doe, dan ga ik een heel goed dag. En zij zit dan in het goede dag. Ik heb een hele dag geluid. - Dat is echt een goede video.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>5 minutes, but also in 1 or 2 minutes, just doing something new. And I’m quite willing to get into the words, if I’m going to do it right here in the customer, but then immediately another 10. And you have that listening that I only have in the real thing. You have a sun in the door existing. If I just do that, then I’ll have a very good day. And she is then in the good day. I have sound all day long. - That is really a good video. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>5分鐘，或1、2分鐘，做點新的東西。如果我要當著客戶的面做，我很樂意投入對話中，然後馬上再花10分鐘。這樣你就能聽到那種只有在真實場景中才能聽到的聲音。就像陽光照進門。如果我能做到這一點，我今天就會過得很愉快。她也會過得很愉快。我一整天都有聲音。 ——這真是一個很棒的影片。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 19:00 - 19:30 • 60%  <br>En dan weet ik het eigenlijk wel, omdat ik hoor dat ik maar één taartje krijg, want als ik één taartje krijg, en al weet ik al zijn voor meer tragen waar dat is van niet verteld, dan ga ik heel zo niet taart doen. Ik denk dit is mijn enige taartje van een dag, die verder meek je te dag takeren. Als ik hoor dat ik weer zou gegeven hebben, dan moet ik er ook nog eens vast.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then I actually know it, because I hear that I'm only getting one small cake, because if I get one small cake, and even though I already know there are more for those who haven't been told that, then I'm definitely not going to eat cake. I think this is my only small cake for the day, which you have to take with you the rest of the day. If I hear that I would have given again, then I have to eat even more. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>然後我其實就知道了，因為我聽說我只能分到一小塊蛋糕。如果我只能分到一小塊蛋糕，即使我知道還有其他蛋糕是給那些沒被告知的人準備的，那我肯定不會吃。我想這應該是我今天唯一的一小塊蛋糕了，而且還得帶走。如果我聽說還有一塊蛋糕可以分，那我就要多吃一些了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 19:30 - 20:00 • 75%  <br>Dat is hier, ja. - Je ziet dat. En daar is het bijna een keer. - Dat is niet zo. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>That is here, yes. - You see that. And there it is almost once. - That is not so. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，就在這裡。 ——你看到了吧。而且它幾乎出現了一次。 ——並非如此。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 20:00 - 20:30 • 57%  <br>En dan zijn ze zo. En dan hebben we wel vaak gewoon een oordje, dan zijn we twee en dan dan ben ik... Dan ben ik zoveel in de... Was, een ogen. Ik ben dat wel, als jij zegt, dat is een beetje plezier. Maar, het is een beetje spinaal, want dan vroeger niet van die net. En zo, dat is wel even. Maar, dat is wel een keuken. Ja, ik zie dan ook zicht van, ik ben aan het zullen en in het is wel een behoor. Ik ga niet zelf, denk van ook de helper die je ooghijpen door.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then they are like this. And then we often just have a little ear, then we are two and then then I am... Then I am so much in the... Was, an eyes. I am that, if you say, that is a bit of fun. But, it is a bit spinal, because then back then not of that net. And so, that is quite a moment. But, that is a kitchen. Yes, I then also see sight of, I am going to and in it is quite a proper. I am not going myself, think of also the helper who your eyelids through.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>然後它們就變成這樣了。然後我們通常只有一隻小耳朵，然後我們是兩個人，然後我……然後我太投入了……曾經是，一隻眼睛。我是那樣，如果你說，這有點意思。但是，這有點脊椎，因為然後回到那個網後面。所以，那是一個相當特別的時刻。但是，那是廚房。是的，然後我也看到了，我要去，而且在那裡相當合適。我自己不去，想想那個幫手，他透過你的眼皮。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 20:30 - 21:00 • 86%  <br>Het is een beetje een instrument.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>It is a bit of an instrument.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>它有點像樂器。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 21:00 - 21:30 • 83% <br>En dan denk je dat ik een beetje in mijn naam stel je. Ja, dan stel je je in mijn naam. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then you think I'm putting myself in my name a bit. Yes, then you are putting yourself in my name. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>然後你覺得我有點把自己代入到我的名下。是的，那你就是在把自己代入到我的名下。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 21:30 - 22:00 • 65% <br>Ja, dat is niet schnaak dat dat verwacht niet. Waarom ze voor niets te vreemelen? Ik speert het niet.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, that is not cheap, that you wouldn't expect that. Why make them scrambling for nothing? I'm not making it. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，這可不便宜，你一定想不到。為什麼要讓他們白白浪費時間？我不會做。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 22:00 - 22:30 • 74% <br>Ja, ik ben er zin. Daarmee ik dan van z'n woon. Ja, graag. En dan gaan we het op. En dan gaan we het op. Maar als we er zijn, ik ben er twee keer in de voelingszijden. En het is eigenlijk de stuur. En dat wij hier met het woon hebben. En dan gaan we het op. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, I'm looking forward to it. With that, I'll leave his home. Yes, please. And then we'll head out. And then we'll head out. But when we get there, I'll be there twice in the feelers. And it's actually the steering wheel. And that we have here with the home. And then we'll head out. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我很期待。說完，我就離開他家了。好的，謝謝。然後我們就出發。然後我們就出發。但到了那裡，我會在觸角處出現兩次。實際上，那是方向盤。還有我們家這裡的東西。然後我們就出發。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 22:00 - 22:30 • 74% <br>Ja, ik ben er zin. Daarmee ik dan van z'n woon. Ja, graag. En dan gaan we het op. En dan gaan we het op. Maar als we er zijn, ik ben er twee keer in de voelingszijden. En het is eigenlijk de stuur. En dat wij hier met het woon hebben. En dan gaan we het op. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, I'm looking forward to it. With that, I'll leave his home. Yes, please. And then we'll head out. And then we'll head out. But when we get there, I'll be there twice in the feelers. And it's actually the steering wheel. And that we have here with the home. And then we'll head out. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我很期待。說完，我就離開他家了。好的，謝謝。然後我們就出發。然後我們就出發。但到了那裡，我會在觸角處出現兩次。實際上，那是方向盤。還有我們家這裡的東西。然後我們就出發。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 22:30 - 23:00 • 63% <br>En dat zijn we in het hoofd dat zij dan zo goed hebben. En we hebben het een beetje... Ik denk dat ze dan ook zo goed hebben. Dat ze ervan is nog wel uitgegeven. Ja, ze zijn ook wel in het hoofd vanuit het zijn, ze moeten goed. En dat als ze dan werken wij met de tweeën en het zijn door te weten, omdat we er ook zo goed hebben. Ja, maar ja. En dat ze dan ook denk van 'oh, je moet ook bereft, is daar weer van'. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And that is what we are in our heads, that they are doing so well. And we are a bit... I think that they are doing so well too. That they have spent on it. Yes, they are also in their heads from the being, they have to be good. And that when they work, we the two of us and the being by knowing, because we are doing so well there too. Yes, but yes. And that she then also thinks, 'oh, you also have to be concerned, it's that again'. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們心裡想的就是，他們做得很好。我們也覺得……他們做得很好。他們為此投入了很多。是的，他們從心底也這麼想，他們必須做得好。當他們工作的時候，我們倆，還有他們自己，都知道，因為我們在那裡也做得很好。是的，沒錯。然後她也會想，“哦，你也得擔心，又是那樣。”<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 23:00 - 23:30 • 82% <br>Ja, maar ik filmen het een tijd te hebben gezien. Waarom is het een tijd te hebben gezien? Ja, het is een tijd te hebben gezien.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, but I filmed having seen it for a while. Why is it having seen it for a while? Yes, it is having seen it for a while. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，但我拍攝的時候已經看過一段時間了。為什麼說是看過一段時間了？是的，就是看過一段時間了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 24:00 - 24:30 • 75% <br>Het hoewel zijn dat ik jou, ik weet het niet, ik heb maar eigen made-puitje, ik ben een eigen soort verk open. Ik doe dat niet hoe ik het weet. Dat is een vervelend van een dag voor de haal. Dat is een stelende langer. En ik ga het erop, want ik heb deze bovenal in de vervelend. Dit is een nieuw check. Dat is nog speciaal. We hebben een kropel van de waarschuw. Doei onszelfsijg als een rijjeswoot. De enzijgelswoot.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>It although be that I you, I don't know, I just have my own little maggot, I am my own kind of sold open. I don't do that how I know it. That is an annoying day for the haul. That is a stealing longer. And I'm going for it, because I have this above all in the annoying. This is a new check. That is still special. We have a twig of the warning. Bye ourselves like a row-woot. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>雖然我不知道，但我有我自己的小蟲子，我以我自己的方式出售開放。我不知道該怎麼做。對於收穫來說，這是令人惱火的一天。這是一次更長的偷竊。但我還是要去，因為我最討厭的就是這個。這是一張新的支票。這仍然很特別。我們有一點警告。像一排樹一樣告別自己。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 26:00 - 26:30 • 77% <br>Ik vond het een beetje moeilijk, maar ik denk dat het een beetje moeilijk moet worden. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I found it a bit difficult, but I think it needs to become a bit difficult. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我覺得有點難，但我認為它需要變得更難一些。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 26:30 - 27:00 • 87% <br>En, als jullie moesten en voor vaak vrachten zitten, dan gaan we ergens nog een paar vrachten doen. En dat zijn ze ook nog een vrachten. En dat zijn ze ook nog een vrachten. En jullie moesten er vaak vrachten zitten. We hebben geslapen, dan. We hebben we.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And, if you had to and often had to sit through loads, then we’ll go do a few more loads somewhere. And those are quite a few loads too. And those are quite a few loads too. And you often had to sit through loads there. We slept, then. We have we. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>而且，如果你不得不，而且經常不得不忍受很多次，那我們就去別的地方再乾幾趟活。那些活兒也不少。那些活兒也不少。而且你常常得在那裡忍受很多次。然後我們就睡覺。我們睡了。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 27:00 - 27:30 • 79% <br>En dat vlieg je zoveel internet zijn achterwerken.   <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And that flies you off his internet ass. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>你竟然在網路上到處刷他的屁股。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 27:30 - 28:00 • 83% <br>En dan moeten we op de zoveel hangen.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then we have to hang on so-and-so. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>然後我們得等某某。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 28:30 - 29:00 • 86% <br>En ik denk dat ze echt echt vroeger zijn. Dat is echt een heel moeilijk moment. Maar ook een beetje is dat wij hier goed hebben. En dan zijn ze er ook in een stukje in. Dat ze hier wel ook in de koot. En ik denk dat ik hier ook niet meer als je met een ingang. En dan zijn je er nog een beetje. Dat zijn ze zijn ze voor de woontjes. Dat zijn ze voor de woontjes. Daarover de woontjes.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And I think that they really, really are from the past. That is really a very difficult moment. But also a bit is that we have it good here. And then they are also in a bit of it. That they are also in the kennel here. And I think that I am not here anymore either if you with an entrance. And then you are still there a bit. Those are they are they for the little houses. Those are they for the little houses. About the little houses.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我覺得它們真的，真的來自過去。那真是一個非常艱難的時刻。但也有一部分原因是，我們在這裡過得很好。然後它們也身處其中。它們也在這裡的犬舍裡。我想，如果你有一個入口，我也不在這裡了。然後你仍然在那裡。那些是小房子。那些是小房子。關於小房子。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 29:00 - 29:30 • 47% <br>Je hebt een gelukkigste jeal. Ja. Je zit hier in de groen op te lachen. Je hebt een gelukkigste jeal.   <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>You have a luckiest jeal. Yes. You are sitting here laughing in the green. You have a luckiest jeal.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>你真是個幸運的嫉妒者。沒錯。你現在坐在這裡，在綠茵場上開懷大笑。你真是個幸運的嫉妒者。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 29:30 - 30:00 • 80% <br>Ja, dat is wel een heel groot geval. Ja, ik ga niet hoe dat te kopen, maar daar gaan we gaan. Ja, ik ga er een eetlachsel van vertaald. Dan gaan we een eetlachsel van vertaald.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, that is quite a big case. Yes, I’m not going to say how to buy that, but here we go. Yes, I’m going to translate a laugh of it. Then we’re going to translate a laugh of it.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，這案子還挺大的。是的，我不會說怎麼買，但讓我們開始吧。是的，我要翻譯其中的笑點。然後我們來翻譯一下其中的笑點。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 30:00 - 30:30 • 78% <br>Ja, en dat is een plek. Ja, precies. En dan ik ben er een beetje op de wassen te gaan. Dat vind ik ik.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, and that is a place. Yes, exactly. And then I’m kind of going there to do some laundry. That’s what I think. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，那是個地方。沒錯。然後我打算去那裡洗衣服。我是這麼想的。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 30:30 - 31:00 • 85% <br>Het is een zware, ja, een zware. En die zien er is van, maar het is om te gaan worden. We hebben het voor, dus ik ben er iets van te willen. Wat is dat? Alleen, het is dat ik dat ergens was. En dat is dat? En dat is hier daarvoor, en wat ik weet, dat ik het niet. Allemaal, het is ja als het ergens, dat je ergens waar je ergens is. En het is ook al die aan. Het is een beetje van die wuut. Ik ben er een groot of ik voor een zon daar in het vergeten. Zoveel van de schermijnen, de alistie mee.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>It is a tough one, yes, a tough one. And those look at it, but it is about to become. We have it for, so I am wanting something of it. What is that? Only, it is that I was that somewhere. And that is that? And that is here before that, and what I know, that I am not it. All of it, it is yes if it is somewhere, that you somewhere where you somewhere is. And it is also all that on. It is a bit of that wuut. I am a big one or I for a sun there in the forgotten. So much of the screen lines, the alistie along. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>這的確是個難題，真的很難。那些人看著它，但它即將變成現實。我們擁有它，所以我想要從中得到些什麼。那是什麼？只是，我曾經在某個地方是那樣的。那就是那樣嗎？那是在此之前，而我知道的是，我不是那樣的。所有的一切，如果它在某個地方，那就是你在某個地方，而你在某個地方。它也包含了所有這些。有點像那種「wuut」。我是一個大人物，或是我渴望被遺忘的太陽。螢幕上的許多線條，以及沿著的alistie。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 31:30 - 32:00 • 27% <br>En je is een heel groot gehoord, dus dat is een heel buitenwertje. Ja, ik ben hier niet zet. Ja, dat heb ik ook heen. Dat je heel hard werkt. Ja, ik ben al die wist van als ik ben. En ik ben daarnetje. En ik voel er even. Ik kreeg het al. En dat is veel tevrouw. En dat is een heel groene volk. Ik heb ook een heel groot gehoord.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And you have heard a very big one, so that is quite an outsider. Yes, I am not set here. Yes, I have that too. That you work very hard. Yes, I am already that knew of when I am. And I am just over there. And I feel it for a moment. I already got it. And that is a very woman. And that is a very green people. I have also heard a very big one. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>你聽說了一個很大的問題，所以他是個局外人。是的，我在這裡還沒安頓下來。是的，我也有這種感覺。你工作非常努力。是的，我已經知道我在哪裡了。我就在那邊。我感覺到了。我已經明白了。那是一個非常女人。那是一個非常綠色的人。我也聽說了一個很大的問題。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 32:00 - 32:30 • 45% <br>En dan koord je het. Ja, precies, dat is er in. En dan voelt er zoveel voor de leed. En ik dacht, ik zou net zo lekker. Ja. Lidt dat je heel practicat is. Ja. Als dat je hier naast, dan voel ik. Ja, maar als je kunt. Ja. Als ik zelf zou openen, dan ben ik er zo op de verantwoordigheid om erop het aftlaat. Voel ik dat voorleden. Ja, het aangepunt.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then you connect it. Yes, exactly, that’s in there. And then there is so much feeling for the suffering. And I thought, I would just as nicely. Yes. Like that you are very practical. Yes. If that you here next to me, then I feel. Yes, but if you can. Yes. If I were to open myself, then I am so focused on the responsibility to let it go. I feel that past. Yes, the pointed one. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>然後你把它連結起來。是的，沒錯，那都在那裡。然後，對苦難的感受如此強烈。我想，我也會做得更好。是的。就像你那樣，非常務實。是的。如果你在我身邊，我就能感受到。是的，但如果可以的話。是的。如果我敞開心扉，我會專注於放下過去的責任。我能感受到過去。是的，那個尖銳的過去。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 32:30 - 33:00 • 87% <br>Dus in de stanken, en ook in de kapot. Ja precies. En de karen zo ziet ze stanken ook wel, dat zij is een opvang door de hele keer. Dus zij nog ook wel in de zeld, want het is ook een vangere stanken. En in de zekant zie ik iets. Ja, goed. Nee. En ook in de zekant zie ik iets.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>So in the stench, and also in the broken. Yes, exactly. And Karen sees the stench like that too, that she is a refuge throughout the whole time. So she is also in the same, because it is also a catcher of stench. And in the side I see something. Yes, right. No. And in the side I also see something. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>所以，在惡臭中，也在破碎中。是的，沒錯。凱倫也這樣看待惡臭，她始終是那裡的避難所。所以她也身處其中，因為那裡也是惡臭的聚集地。在旁邊，我看到了一些東西。是的，沒錯。不。在旁邊，我也看到了一些東西。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 33:00 - 33:30 • 64% <br>Dat is ook niet meer verwerking. Ja, ik denk dat je je zo niet hebt. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>That's not processing anymore either. Yeah, I don't think you're like that. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>這已經無法處理了。嗯，我覺得你不是那樣的人。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 33:30 - 34:00 • 54% <br>- Ja. Of nee, wat zijn ze nu stuurpentjes? - Ja, maar ik ben uiteindelijk. - Deze is de video. - Dat is de zin.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>- Yes. Or no, what are stems anyway? - Yes, but I am ultimately. - This is the video. - That is the sentence. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>- 是的。或者不，詞幹到底是什麼？ - 是的，但我最終是。 - 這是影片。 - 這是句子。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 34:00 - 34:30 • 43% <br>Oh, dat is wel goeiemig. In een hoog plaat. En maat is het wat we hier waren. Ah, dat is niet. Ja. Ja. Het is een scherke plaat.  Ben ik heest gehad met een scherke plaat.  Ik vind het zo scherke plaat. Hoe dat kan je er hier tijden? Ik scherke plaat. Ja, toch wel. Dank je wel.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Oh, that is really good. In a high plate. And measure is what we were here. Ah, that isn't. Yes. Yes. It is a sharp plate. I've had it with a sharp plate. I think it's such a sharp plate. How can you say that here? I sharp plate. Yes, definitely. Thank you. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br> 哦，這真不錯。用高盤子裝。我們剛才說的就是量。啊，不是。是的。是的。這盤子很鋒利。我用過鋒利的盤子。我覺得這盤子真鋒利。你怎麼能這麼說呢？鋒利的盤子。是的，沒錯。謝謝。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br> 34:30 - 35:00 • 48% <br>Uiteindelijk staat uur en een achterwerker. Uiteindelijk? - Ja. Uiteindelijk? <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Eventually, it stands at the hour and a rear worker. Eventually? - Yes. Eventually? <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>最終，他會站在時區，成為後勤人員。最終？ ——是的。最終？<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>35:30 - 36:00 • 80%<br>Dat is het. Oh, mijn. Dat is het.  Van een maar over. Ik moet het maken over het. Dat is het. Ja, het is het. Ja, wat is het? Ja, We zijn hier in Stuik. We moeten we een beetje wel met de vracht. Zeg zijn dacht. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>That's it. Oh, mine. That's it. Of a but over. I have to make it over it. That's it. Yes, it is it. Yes, what is it? Yes, we are here in Stuik. We have to a bit with the cargo. Say his thought. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>就是這樣。哦，我的天。就是這樣。還有點兒事要辦。我得想辦法解決。就是這樣。是的，就是這樣。是的，到底是什麼事？是的，我們現在在斯圖伊克。我們得處理一下貨物。說出他的想法。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>36:00 - 36:30 • 76%<br>We zijn de 3,7-ditje. De chill-shader heeft wel een tijdens het studie. En ze zijn er ook nog een beetje bij. Dit is wel een hulpje. En ze zijn er ook nog een beetje bij. Ja, daar is je. En daarna is je hier in 12. Oh, ik heb het ook bij de chill-shader. Ja, daar is je. Ja, ik ben hier zover. Ja, ik ben hier. Als je een keer van je schreef is, dan is het wel een keer van je. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We are the 3.7-this one. The chill-shader does have one during the study. And they are also kind of involved. This is quite a helper. And they are also kind of involved. Yes, there you are. And after that you are here in 12. Oh, I have it with the chill-shader too. Yes, there you are. Yes, I am this far. Yes, I am here. If you wrote something of yours once, then it is indeed yours once. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們是3.7——就是這個。 chill-shader在研究期間確實有一個。它們也參與其中。這真是個好幫手。它們也參與其中。是的，你在這裡。之後你就到了12。哦，我也有chill-shader。是的，你在這裡。是的，我已經做到這一步了。是的，我在這裡。如果你曾經寫過一些東西，那麼它確實曾經屬於你。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>36:30 - 37:00 • 89%<br>Ik ga vrijdag een paar procent met je. Oh ja, ja. Ja, hij stelst alleen met je. Ja, alleen met je. Ja, want ik ga er zon mee. Ik ga je dus een komaternisch spiet. En dan ga ik alleen met je spiet. Oh, waarom vind je dat je naar allebei je supervele is? Ja, en ja, dat is wel echt wel net. Ja, dat is wel supervele. Dat wij het ook alleen maar daar. Ja, maar het is grijp dat ik weer in vlieg vind. Ik vind het ook wel... Ik vind het een ene dat ik een bezoek of zin in. Er is ook een spannen, dit is eigenlijk niet nou. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I'm going a few percent with you on Friday. Oh yes, yes. Yes, he sets only with you. Yes, only with you. Yes, because I'm going along with it. So I'm going to give you a co-eternal spie. And then I'm going spie with you alone. Oh, why do you think that going to both of you is super much? Yes, and yes, that really is just right. Yes, that is super much. That we also only there. Yes, but it is grab that I find in fly again. I also think it... I think it is a one that I a visit or feel like in. There is also a tense, this is actually not well. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我星期五要跟你一起去幾個地方。哦，是的，是的。是的，他只跟你一起去。是的，只跟你一起去。是的，因為我同意了。所以我要給你一個永遠的間諜。然後我再單獨跟你一起去。哦，你為什麼覺得跟你們兩個一起去太多了？是的，是的，這真的剛剛好。是的，這太多了。我們也只在那裡。是的，但這是我再次找到的感覺。我也覺得……我覺得這是我想要拜訪或感覺想要的。還有點緊張，其實不太好。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>37:00 - 37:30 • 57%<br>Ik ben niet uitgegeven, maar wel een ding dat ik nou moet ik. En ik ben één keer op de woon. Ja, ik ben buiten. Ja.  Dat is wel een ding. Haha. Dat is niet. Maar ik denk dat is best wel een duur. Dat is ook een eind. Dat is wel een paar... Op een moment over de verbrein van de woon. Dat is een eind. Maar de persoonal is dat ik het ook niet op dat zei. Dat is ook een verbrein. Dat is wel een hoogte door. Ja. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I haven't spent, but there is something that I have to do now. And I am on the living once. Yes, I am outside. Yes. That is quite a thing. Haha. That isn't. But I think that is quite expensive. That is also a long way. That is quite a few... At one point about the braining of the living. That is a long way. But the person is that I didn't say it on that either. That is also a braining. That is quite a height through. Yes. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我還沒花錢，但我現在有件事要做。我曾經在過街。是的，我在外面。是的。那可真是件大事。哈哈。不是。但我認為那相當貴。那也是一段很長的路。那相當多……有一次，我談到了過街這件事。那很遠。但那個人，我也沒有在那件事上說過。那也是一段很長的路。那相當高。是的。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>37:30 - 38:00 • 67%<br>Ja, en ik denk gewoon, als hij een echte stressje hebt. Dat snap ik altijd wel waar ik ben. Dat is daar ook. Dat is niet zo. Dat is ook wel een gesprek van heel veel mensen. En dat is niet zo. En dat kan ik voor je hebben. Daarom kan ik voor je hebben. Ja, dat is voor je. Ja, dat is voor je. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, and I just think, if he's really stressed out. I always understand that where I am. That's there too. That's not the case. That's also a conversation among a lot of people. And that's not the case. And I can handle that for you. That's why I can handle it for you. Yes, that is for you. Yes, that is for you.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我只是在想，如果他真的壓力很大。我總是能理解我所處的環境。那裡也有這種情況。但事實並非如此。這也是很多人討論的話題。但事實並非如此。我可以幫你處理這件事。這就是為什麼我可以幫你處理。是的，這是為了你。是的，這是為了你。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>38:00 - 38:30 • 71%<br>Maar je vindt het ook iets. Dat is af en af. Dat is ook wel goed. - Ja, ja. Je hebt het ook wel geweest. - Ja. Zeg dat van twee keer gewoon hier. Het was echt een heel leuk. Het was een succes. - Ja. Maar waarom ze natuurlijk wel zijn er ook echt aan boven. En zo qua niet in de rood, want ik ben zo vertaal voor de bood. Maar ik heb ook van de bood in de gradin die aanbond. Dat is wel goed. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>But you think it's something too. That is finished and finished. That's good too. - Yes, yes. You have been there too. - Yes. Just say that about two times right here. It was really a lot of fun. It was a success. - Yes. But why they are of course really at the top there too. And so in terms of not in the red, because I am so translated for the boot. But I also have of the boot in the gradin that offered. That's good.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>但你也覺得這很重要。那件事已經結束了，徹底結束了。這也很好。 ——是的，是的。你也去過那裡。 ——是的。就在這裡重複兩次吧。那真的很有趣。很成功。 ——是的。但他們當然也在那裡處於頂尖水平。所以就目前的情況來看，我沒有虧損，因為我對那次靴子（指某某某某）的翻譯很感興趣。但我也有靴子（指某某某）在Gradin提供的服務。這很好。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>38:30 - 39:00 • 91%<br>Ja, ik ben het van eerst een meega met je aan de ogen. Dat is een heel benieuwd moment.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, I am the one who first goes with you to the eyes. That is a very curious moment. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我是第一個陪你去看眼睛的人。那真是個奇妙的時刻。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>39:00 - 39:30 • 89%<br>Ik had nog een beetje dat, ja, zult zult zult zult. - Ja, jij vindt echt heel leuk. - Oh, maar dat is wel goed. - Ja, ik had ze wel bij jouw muziek.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I still had a bit of that, yeah, will will will will. - Yes, you really like that. - Oh, but that's fine. - Yes, I did have them with your music.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我還有一些那種感覺，嗯，就是那種感覺。 ——是的，你真的很喜歡那樣。 ——哦，不過沒關係。 ——是的，你的音樂確實讓我有那種感覺。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>39:30 - 40:00 • 68%<br>We hebben het in het terwijl we ergens in het andere groeitje hebben. En het is er van jas en de moeite ervoor heenstoot. Ze hebben het in de neerbeok echt niet. Het zijn je het baanje. En die hebben we nu 5. En ik kan ook gewoon altijd zin. Ja, dat moeten we in het terwijl we nu zijn. En toen we vandaag zijn ook in de kamer als niet. We hebben ook niet gepakt dat ze niet als we de laatste tijd zijn. We hebben ook wel een speciale woest. We gaan ons meteen zien.   <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We have it in the while we have some growth somewhere in the other. And it is of coat and the effort pushed through for it. They really don't have it in the lower beak. It is your the job. And we have 5 of those now. And I can also just always feel like it. Yes, we have to do that in the while we are now. And when we are today also in the room if not. We also didn't grab that they aren't like we have been lately. We also have a special wild one. We are going to see each other immediately.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們現在有它，同時我們在其他方面也有一些成長。這是毛髮，也是我們為此付出的努力。它們的下喙真的沒有。這是你的工作。我們現在有5隻這樣的。而且我總是能感覺到。是的，我們現在必須這樣做。如果我們今天不在房間裡，我們今天也會這樣做。我們也沒有註意到它們最近和我們不一樣。我們還有一隻特別的野生的。我們馬上就要見面了。 <br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>40:00 - 40:30 • 51%<br>En het gevoel dat ik het nu zeg. Ja. Het was goed. En daar is het maar een zin aan, dus dat is moeilijk. Ja. Dat is vocht u.  Dat is vocht u. Dat is het. Ja. Ja, zo leuk. En dat ga ik dus eerst een school. En dan heb ik naar huis een vrije en dan is het niet zo. Ja. Dat is niet zo. Ja. Ja. Ja. Goedemorgen.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And the feeling that I’m saying it now. Yes. It was good. And there’s only one sentence to it, so that’s difficult. Yes. That is moisture you. That is moisture you. That’s it. Yes. Yes, so nice. And so I’m going to school first. And then I have a free day on the way home and then it’s not like that. Yes. That’s not like that. Yes. Yes. Yes. Good morning. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我現在說這句話的感覺。是的。感覺很好。但只有一句話，所以有點難。是的。這就是你身上的水分。這就是你身上的水分。就是這樣。是的。是的，真好。所以我先去上學。然後回家的路上有一天空閒時間，但之後就不是這樣了。是的。不是那樣的。是的。是的。早安。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>40:30 - 41:00 • 88%<br>Ik ben heel niet goed dat ik dat wat meer hoor, dat ik weet hoe je een geweldig zicht hebt. En die te brengen ook. Er is niet wel een aangegaan als je zo goed in het tarp is. En dat is niet een gegeven moment dat je niet zo goed in het tarp is. Ja, gewoon zo een stressbaarheid. Echt? Ja, ik ben dat natuurlijk ook een stressbaarheid. Ja, en ik kan dus echt niet. En je hebt deze tarp in je hand. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I am not very good that I hear that a bit more, that I know how you have a great view. And to provide it too. It hasn't really gone off when you are so good in the tarp. And that isn't a specific moment when you aren't so good in the tarp. Yeah, just that kind of stressability. Really? Yes, I am that stressability too, of course. Yes, and so I really can't. And you have this tarp in your hand. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我不太擅長多聽，我知道你視野很好，也知道你能提供很好的視野。當你在帳篷裡表現得那麼好時，它並沒有真正發揮作用。這並不是說你在帳篷裡表現不好。是的，就是那種壓力。真的嗎？是的，我當然也有這種壓力。是的，所以我真的做不到。而你手裡拿著這個帳篷。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>41:00 - 41:30 • 80%<br>Ik heb wel een zo vakt zien. - Ja, ik heb tot de zielers en sluitse. Toen werkt u zich de hele dachtbaarheid. - Ja. - Maar ook van laatste uur. Er was als een spruisjes in het werk van Sam en Jairn twee. En het was van zo vereniging. - En over. En toen waren wij en jennies er ook van ook. Ik was helemaal dit. - Zoals hier al een keer. - En toen was het de hele dag van zijn werk. En toen was ik het als je het voorzicht van het werk van een super-ijs moet kijken hoe onderskult ervan is. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I have seen one like that. - Yes, I saw it right up to the souls and closing. Then you worked yourself into the whole thought process. - Yes. - But also from the very last hour. There were two like sprouts in the work of Sam and Jairn. And it was of such union. - And over. And then we and Jennies were there too. I was completely this. - Just like here once already. - And then it was the whole day of his work. And then I was it, if you have to look at the foresight of the work of a super-ice, how understated it is.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我見過那樣的。 ——是的，我一直看到靈魂和收尾。然後你完全融入了整個思考過程。 ——是的。 ——但也是直到最後一刻。薩姆和傑恩的作品中有兩個像嫩芽一樣的火花。那是一種如此完美的結合。 ——然後結束了。然後我們和珍妮也在那裡。我完全沉浸其中。 ——就像之前在這裡一樣。 ——然後就是他一整天的工作。然後我就是，如果你要審視超級冰球的遠見卓識，你會發現它是多麼的低調。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>41:30 - 42:00 • 80%<br>Ik denk dat je zoveel mij zei... En dan moet je met haar die etenlaagje vroeger. Ja, ik denk dat ze zoveel mij zei. Ja, ik denk dat ze zoveel mij zei.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I think you said so much to me... And then you have to deal with that layer of food with her back then. Yes, I think she said so much to me. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我覺得你跟我說了很多……然後你還得處理當時跟她之間的那層飲食問題。是的，我覺得她跟我說了很多。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>42:00 - 42:30 • 33%<br>Ja, al, ja, al, en dan vind ik weer de aan. Stug hier, hoor. Ja, ik vanaf kopen er niet nog. Ik vind het een heel grote zoon. Wat gaat het gewoon moeten doen? Dat is toch ook niet als we nog een paar keer weg. Ik denk dat we ook nog wel een keer weg gaan doen. Oh ja, ja. Ja, dat is wel gezegd.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, already, yes, already, and then I find the on again. Stubborn here, you know. Yes, I'm not buying any more from now on. I think he's a very big son. What is it just going to have to do? That's not like if we go away a few more times, is it? I think we'll go away again sometime too. Oh yes, yes. Yes, that has been said.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，已經，是的，已經，然後我又發現它又出現了。你知道，這孩子很固執。是的，我以後再也不買了。我覺得他真是個孝順的兒子。難道就只能這樣了嗎？這跟我們再出去幾次不一樣，對吧？我想我們以後還會再出去的。哦，是的，是的。是的，這話已經說過了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>42:30 - 43:00 • 90%<br>En dan moeten we strakers zijn, omdat we het zijn. Die mannen kunnen zijn, of ze willen werken, of niet, maar neem ze niet te gaan werken. En jennend is dat zo. Ja, je zoiets van jennend vraagje te gaan, maar ze zijn echt zo. En dan eind zit ze gewoon op, of ze gaan werken. En ik werke van het niet eigenlijk. Ik ben daar al in de hand als. En daar zijn we ook even een systeeng. Ja, we moeten moesten wel even hoe duidelijk zijn we streng zijn. En dan ben ik ook alseerwetig uw streng is. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And then we have to be stricter, because we are. Those men can be, whether they want to work or not, but don't get them to go to work. And it is annoying that. Yes, you have a bit of a annoying question to go, but they really are like that. And then in the end they just sit there, or they go to work. And I actually don't work from it. I'm already in control there as well. And there we are also a system for a moment. Yes, we really had to be just about how clear we are about being strict. And then I am also sincerely your strictness.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>所以我們必須更嚴格一些，因為我們本來就應該嚴格。那些人不管想不想工作，只要不讓他們去工作就好。這很煩人。是的，你這個問題有點煩人，但他們確實就是這樣。最後，他們要嘛就待在那兒，要嘛就去上班。其實我並不負責這方面的工作。我已經掌控了局面。我們這裡也暫時建立了一套體系。是的，我們必須明確表明我們的嚴格程度。而且，我也會真誠地執行你的嚴格要求。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>43:30 - 44:00 • 67%<br>Oh, ik was heel vervastigd dat ze nu niet in te doen. Dat was heel erg. Oh, uitzenden. Ja, dat ze dan gewoon... Ja, dat ze dat ze ook in de zelf van gereden. Maar die in leek dat we doen. Dat ze ook nog een jaar weer. Ja, doel, vrienden. En als ze erin op in de maanden, nog van beneden, dan is ze dat ook geslapen. Dat ze ook meer in leek. Maar je zegt dat ze dat... <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Oh, I was very adamant that she shouldn't do it now. That was very bad. Oh, broadcasting. Yes, that she then just... Yes, that she that she also drove in the self. But that in seemed that we do. That she also another year again. Yes, goal, friends. And if she in on in the months, still from downstairs, then she is that also slept. That she also seemed more in. But you say that she that...<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>哦，我當時非常堅決地反對她現在這樣做。那太糟糕了。哦，廣播。是的，她當時就……是的，她也自己開車去了。但那似乎我們確實在做。她又過了一年。是的，目標，朋友們。如果她幾個月來一直待在樓下，那麼她也睡著了。她似乎也更投入了。但你說她…<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>44:00 - 44:30 • 66%<br>O, het is niet meer van 6 uur, maar dat komt niet. Uit verzijden is dat het niet altijd is.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Oh, it is no longer 6 o'clock, but that won't happen. From sideways is that it is not always. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>哦，現在不是六點了，但這不會發生。從側面看，並非總是如此。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>45:00 - 45:30 • 92%<br>Dat is niet zo leuk, ik ben zo leuk. Als je jongen is dan niet aan het melden, dan mag ik. Ja, ik ben zo goed in het hied uit, maar dat is wel serbode. Want die vijf... Ja, want je hebt altijd... Ja, dan gaan we al het draaien in het hele hond. Ik snap je, als je een draaien komt, dan gaat dit niet. Dit is wel belakkelijk.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>That's not very fun, I'm so much fun. If your boy isn't reporting, then I can. Yes, I'm so good at getting the hied out, but that is quite obsolete. Because those five... Yes, because you always have... Yes, then we're going to start turning all over the whole dog. I get you, if you come for a turn, then this won't work. This is quite tricky.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>那可不好玩，我可有趣多了。如果你家孩子不報告，那我來。沒錯，我特別擅長把狗弄出來，但這招已經過時了。因為那五個……對，因為你一直……對，那我們就要開始把整隻狗都翻過來。我明白了，如果你過來想試試，那這招就行不通了。這真是夠棘手的。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>45:30 - 46:00 • 73%<br>Kijk eens naar hoe dat is. Ja, ik weet niet hoe dat is.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Just look at what that is like. Yes, I don't know what that is like. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>看看那是什麼樣子。是的，我不知道那是什麼樣子。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>46:00 - 46:30 • 52%<br>Goedemiddag! Goedemiddag! We zien zo wel hoe het moet mee zijn. Ja, het zijn daarna hier. Gaan we hier aan het halen? Goedemiddag, hier gaan we aan het halen. Ja, nu aan gesproken is het gewoon het spoor dat tegenover zit. Ja, het is hetzelfde probleem. Want dat is een paar minuten. Een paar minuten zijn, ja, in een paar, zeven minuten. Ja, nu aan gesproken dat het voor mij... Als er een speling kan staan... Hij staat minuten? De kans is echt. Als je het niks te beloofd bent.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Good afternoon! Good afternoon! We’ll see how it goes in a moment. Yes, it’s here afterwards. Are we going to get it here? Good afternoon, we are going to get it here. Yes, speaking now, it is just the track opposite. Yes, it is the same problem. Because that is a few minutes. A few minutes are, yes, in a few, seven minutes. Yes, speaking now that for me... If there can be any leeway... It stands for minutes? The chance is real. If nothing is promised to you.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>午安!午安!我們一會兒看看情況。是的，之後就到了。我們能拿到嗎？下午好，我們能拿到。是的，現在說的話，就是對面的軌道。是的，問題還是一樣。因為那隻需要幾分鐘。幾分鐘，是的，幾分鐘，七分鐘。是的，現在說的話，對我來說……如果還有任何迴旋餘地……幾分鐘？機會是真的。如果什麼都沒給你保證的話。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>48:00 - 48:30 • 83% <br>Je bent al er weer heel veel voor, maar je bent al heel veel voor.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>You are already very much ahead of it again, but you are already very much ahead of it. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>你又一次遠遠領先了，真的，你已經遠遠領先了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>49:00 - 49:30 • 86%<br>We gaan hier ook naar de deel gaan met de muur. Dat is een gegeven moment. Het is gezelfde. We gaan naar de jaren. Daar werd je ook voor zeker dan. Ja, ik hoorde. Dat voelde ik wel echt een beetje geloven. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We are also going to the part with the wall here. That is a certain moment. It is the same. We are going to the years. You were certainly prepared for that then too. Yes, I heard. I really felt myself believing that a little bit.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們還要去有那堵牆的那部分。那是一個特定的時刻。是一樣的。我們要去往那些歲月。你當時一定也做好了準備。是的，我聽說了。我當時也確實有點相信這一點。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "23-05-2026 <br>50:00 - 50:30 • 70%<br>Ik heb ook een kant.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I have a side too.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我也有自己的立場。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    //26-05-2026
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br>0:00 - 0:30 • 26%<br>Goedemiddel.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Good remedy. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>很好的療法。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br>2:00 - 2:30 • 84%<br>Deze aanwezigte is voor de eeuwen van de stoel.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>This item is for the centuries of the chair. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>此物件獻給椅子幾個世紀以來的歲月。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 11:30 - 12:00 • 80%<br>We gaan naar de ogen.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We are going to the eyes. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們要去看眼睛。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 26:00 - 26:30 • 49% <br>Ik heb een beetje een beetje een beetje verhoordat. We hebben een paar keer in de camera op een paar keer een micaphone.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I questioned that a little bit, a little bit. We were on camera a few times on a microphone. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我當時確實有點懷疑。我們有好幾次對著鏡頭和麥克風說話。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 26:30 - 27:00 • 56% <br>Goedemiddel voor ons! Goedemiddel voor ons! Ja!   <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>A good remedy for us! A good remedy for us! Yes! <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>對我們來說是個好辦法！對我們來說是個好辦法！是的！<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 27:00 - 27:30 • 62% <br>We hebben een klein kiel opgevangen en we hebben er een gezicht.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We caught a small keel and we have put a face to it. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們捕獲了一條小龍骨，並且已經確定了它的身份。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 27:30 - 28:00 • 74% <br>Ja, ik ben zo moeilijk aan de plekje.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, I am so picky about the spots. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我對斑點的要求非常高。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 28:30 - 29:00 • 72% <br>Ja, het is een heel mooie kijk. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, it is a very beautiful view. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，景色很美。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 29:00 - 29:30 • 30% <br>Hoe gaat het? - Die hoogt het. Ik weet het ook niet. Het is mei. Ja, het is hetzelfde kende wo otheren. Het is een beetje op het hetzelfde point. Als je het bevindt naar de Sheerlijks, is het echt... Ja, ik weet het niet. Ik heb het niet goed gevoel. Het is toch goed in hetzelfde? Ja. Ja, ik ben niet echt zo tevende. Ik denk dat je dat goed gaat zijn. Ja, ik denk dat je dat goed gaat zijn. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>How are you? - He's keeping up. I don't know either. It's May. Yes, it's the same as we know otheren. It's a bit at the same point. If you find it towards the Sheerlijks, it's really... Yes, I don't know. I don't have a good feeling about it. It's good in the same, isn't it? Yes. Yes, I'm not really that farde. I think that's going to be good for you. Yes, I think that's going to be good for you. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>你好嗎？ ——他一切都好。我也不知道。現在是五月。是的，和我們之前了解的一樣。情況差不多。如果你往謝爾利克斯方向走，那就真的……是的，我不知道。我感覺不太好。這樣也好，不是嗎？是的。是的，我其實不太確定。我覺得這對你有好處。是的，我覺得這對你有好處。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 29:30 - 30:00 • 74% <br>Ja, ze zijn echt inderdaad, je weet niet hoe dat is, maar ik vind het echt heel moeilijk. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, they really are indeed, you don't know what that's like, but I find it really very difficult. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，確實如此，你不知道那是什麼感覺，但我發現真的很難。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 30:00 - 30:30 • 71%<br>Ja, het is een heleboel van dag, maar het is dus al een heleboel van de jaren en een heleboel <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, it is a whole lot of today, but so it is already a whole lot of the years and a whole lot. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，這很大程度上屬於今天，但也很大程度上屬於過去很多年，而且很多時候也是如此。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 33:00 - 33:30 • 71% <br>We hebben gewoon een vergelijker gehoord. We hebben een hoogte. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We just heard a comparator. We have a height. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們剛才聽到了一個比較級。我們有高度。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 34:00 - 34:30 • 92% <br>Ja, dat is een prachtig woon. Dat is wel een prachtig woon. Ja. Dat is een korte, maar dat is een korte.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, that is a beautiful home. That is indeed a beautiful home. Yes. That is a short one, but that is a short one. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，那是一棟漂亮的房子。的確，那是一棟漂亮的房子。是的。房子很短，但它確實很短。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 34:30 - 35:00 • 87% <br>We hebben een stijf van de deel van de vijfdeel.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We have a stiffy from the part of the five-part. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們從五個部分中得到了一個硬塊。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 35:30 - 36:00 • 89% <br>Oké, ik denk dat ik het heel goed heb.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Okay, I think I have it very good. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>好吧，我覺得我的情況很好。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 35:30 - 36:00 • 89% <br>Oké, ik denk dat ik het heel goed heb.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Okay, I think I have it very good. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>好吧，我覺得我的情況很好。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 37:00 - 37:30 • 71%<br>We hebben er een probleem, dat ik niet meer dan de probleem kan. Dat is niet meer dan de probleem. Dat is niet meer. Dat is meer. Maar ik weet het niet. We hebben het niet meer dan de probleem, dat ik niet meer dan de probleem.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We have a problem there, that I can do no more than the problem. That is no more than the problem. That is no more. That is more. But I don't know. We have it no more than the problem, that I no more than the problem. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們遇到了一個問題，我對此無能為力。這不過是問題本身。僅此而已。這才是問題所在。但我不知道。我們面臨的問題不過是問題本身，我對此也無能為力。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 37:30 - 38:00 • 83% <br>Ik heb al het gevoel dat ik er niet meer in heb.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I already feel like I don't have it anymore. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我感覺自己好像已經失去它了。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 38:00 - 38:30 • 86% <br>Dat is niet.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>That is not the case. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>事實並非如此。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 38:30 - 39:00 • 70% <br>Ik wou ook de historie dat het in de recht is, ik weet het niet, maar ik denk dat het in de gegevenen is, dat je een gegeven moeilijk is. Ik denk dat je een gegeven moeilijk is. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I also wanted the history that it is in the law, I don't know, but I think that it is in the given, that a given is difficult. I think that a given is difficult.<br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我還想知道它在法律中是如何規定的，我不知道，但我認為它存在於既定事實中，而既定事實本身就很難理解。我認為既定事實本身就很難理解。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 39:30 - 40:00 • 95%<br>We hebben het niet geluid. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We don't have the sound. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們沒有聲音。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 40:00 - 40:30 • 79% <br>Ja, ik kan het niet, ze hebben het niet te lopen. Ja, dat is het niet te lopen. Ik heb het niet te lopen, maar we kunnen ook een proogsjaar om de aanzoklijker te lopen. En ik hoop dat ik het niet te lopen. Ik heb het niet te lopen. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Yes, I can't do it, they don't have it to walk. Yes, that is not walking. I don't have it to walk, but we could also do a proogsjaar to walk the solicitor. And I hope I don't have to walk. I don't have to walk. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是的，我做不到，他們沒辦法走路。是的，那不算走路。我沒辦法走路，但我們也可以安排一個實習期，讓律師陪我走。我希望我不用走路。我不用走路。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "26-05-2026 <br> 40:30 - 41:00 • 82% <br>We hebben een voorzichting op de korte. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We have a short-term precaution <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們有短期預防措施<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    //27-05-2026
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 0:00 - 0:30 • 72%<br>Ik heb lekker geëeten! Noah, wat is dat? <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I had a delicious meal! Noah, what is that? <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我吃了一頓美味的晚餐！諾亞，那是什麼？<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 3:30 - 4:00 • 66% <br>We zijn al die.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We are all those. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們都是那樣的人。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 5:00 - 5:30 • 84%<br>We hebben ook een heel moeilijker gehoord.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We also heard a very difficult one.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們還聽到了一個非常難懂的笑話。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 6:30 - 7:00 • 97% <br>Is het een like sound toevakken? Ik denk dat het een lichtje is.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Is it a like sound to add? I think it is a little light. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>是不是應該加個類似的聲音？我覺得有點輕。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 7:00 - 7:30 • 87% <br>Het is een eil, dit is een eil.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>It is a will, this is an oak. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>這是一份遺囑，這是一棵橡樹。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 7:30 - 8:00 • 52% <br>Ik heb een kijkersje.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I have a little viewer. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我有一個小型顯示器。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 8:00 - 8:30 • 80% <br>Goedemiddel, ik ben hier bij een verbandje. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>Good remedy, I am here with a bandage. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>好辦法，我這裡有繃帶。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 9:00 - 9:30 • 66% <br>We hebben een beetje een beetje een beetje behoor. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>We have a little bit a little bit belonging. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我們之間有一點點歸屬感。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 9:30 - 10:00 • 61% <br>Deze volgende kruipje is gesloten, maar het is dan ook een van de hoek. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>This next crawl is closed, but then again, it is one of the corner. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>下一個爬行通道是封閉的，但它又位於角落。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 12:30 - 13:00 • 47% <br>No label. No label. Dat is een neem van de brand. No label. Ah! En ik heb hier zien dat ik een brand is. In de UK en stuff. Dat is called like... No beer. No logo beer. Dus het is een idea dat we zullen branden. Oh! De belangrijkste is dat. Dat is de kama brand. Als je brand is no logo, dan no logo is... De brand. En de wereld, die wacht, is een logo. Nee. <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>No label. No label. That is a name of the brand. No label. Ah! And I’ve seen here that I am a brand. In the UK and stuff. That is called like... No beer. No logo beer. So it is an idea that we are going to brand. Oh! The most important thing is that. That is the kama brand. If your brand is no logo, then no logo is... The brand. And the world, which is waiting, is a logo. No. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>沒有標籤。沒有標籤。這就是品牌名稱。沒有標籤。啊！我看到這裡說我是一個品牌。在英國之類的地方。這叫做……無啤酒。無標誌啤酒。所以這是一個我們要打造品牌的理念。哦！最重要的是這一點。這就是卡瑪品牌。如果你的品牌是無標誌，那麼無標誌就是…品牌。而等待的世界，就是一個標誌。不。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 13:00 - 13:30 • 72%<br>Ik weet niet hoe ik het heb. - Dit is een beelde.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>I don't know what to make of it. - This is a statue. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>我不知道該如何理解。 ——這是一座雕像。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 14:30 - 15:00 • 84%<br>En laatst, soms schouwt het.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>And lately, sometimes it gazes. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>最近，它有時會凝視著。<br><br> <span class='clickTip'>Click for translation </span>"
+        ]
+    },
+    {
+        img: "images/h.png",
+        story: [
+            "27-05-2026 <br> 15:00 - 15:08 • 87%<br>Als je het goed is, dan is het goed.  <br><br> <span class='clickTip'>Click for translation </span>",
+            "EN <br>If it's right, then it's right. <br><br> <span class='clickTip'>Click for translation </span>",
+            "CN <br>如果是對的，那就是對的。<br><br> <span class='clickTip'>Click for translation </span>"
         ]
     },
 ];
