@@ -30,8 +30,11 @@
                 this.radius = 13; // 💡 修正關鍵：改為 15px (直徑 30px)，與你的 style.css (.gameCharacter { width: 30px }) 完美對齊！
 
                 // 出生點
-                this.posX = 50 + (index % 5) * 180 + (Math.random() - 0.5) * 30;
-                this.posY = 200 + Math.floor(index / 5) * 180 + (Math.random() - 0.5) * 30;
+                // 💡 修改後的程式碼：讓 100+ 個角色完美分散在網頁各處
+                const padding = 40; // 留出 40px 邊距，防止圖片緊貼螢幕邊緣邊界
+                this.posX = padding + Math.random() * (window.innerWidth - padding * 3);
+                this.posY = padding + Math.random() * (window.innerHeight - padding * 3);
+
 
                 this.speedX = (Math.random() - 0.5) * this.maxSpeed * 2;
                 this.speedY = (Math.random() - 0.5) * this.maxSpeed * 2;
